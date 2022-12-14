@@ -1,0 +1,11 @@
+<%- include('partials/header.ejs') %>
+
+<h1>Products I hate:</h1>
+
+<ol>
+    <% products.forEach(product => { %>
+        <li><%= product %></li>
+    <% }) %>
+</ol>
+
+<%- include('partials/footer.ejs') %>

@@ -1,0 +1,11 @@
+<%- include('partials/header.ejs') %>
+
+<h1>Foods that are good:</h1>
+
+<ol>
+    <% foods.forEach(food => { %>
+        <li><%= food %></li>
+    <% }) %>
+</ol>
+
+<%- include('partials/footer.ejs') %>
